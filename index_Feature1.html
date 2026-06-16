@@ -6,10 +6,10 @@
     <title>Document</title>
     <style>
         body {
-            background-color: lightblue;
+            background-color: rgb(255, 255, 255);
         }
         h1 {
-            color: navy;
+            color: rgb(0, 0, 0);
             margin-left: 20px;
             border: 2px solid black;
             padding: 10px;
@@ -19,13 +19,36 @@
         }
         p {
             font-size: 18px;
-            color: darkslategray;
+            color: rgb(255, 255, 255);
             margin-left: 20px;
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin-left: 20px;
+            justify-content: center;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
         }
     </style>
 </head>
 <body>
-    <h1>Feature 1</h1>
+    <h1>Project Features</h1>
     <p>This is the first feature of our project.</p>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>build number</th>
+            <th>fps(GTA5)</th>
+        </tr>
+        <tr>
+            <td>Ryzen 5</td>
+            <td>7430u</td>
+            <td>55 (max)</td>
+        </tr>
+    </table>
 </body>
 </html>
